@@ -1,0 +1,58 @@
+
+*{
+    box-sizing: border-box;
+}
+h1{
+    margin:50px;
+    text-align: center;
+}
+
+section h3{
+    position: relative;
+    left:70%;
+    width:30%;
+    margin:0;
+    text-align: center;
+    background: hsl(177, 70%, 30%);
+    border: 1px solid black;
+}
+.content p{
+    padding: 10px;
+}
+div{
+
+    width: 98%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.content section{
+    border:1px solid black;
+    background: lightseagreen;
+}       
+@media (min-width:992px){ 
+
+    div.content section{ 
+        margin: 1em;
+        float: left;
+        width: 30%;
+    }
+}
+@media (min-width: 768px) and (max-width:991px){
+
+    section{
+        width:46%;
+        margin : 2%;
+        float: left;
+    }
+    .sec-3 {
+       clear :both;
+       width:96%;
+    }
+}
+@media (max-width: 767px){
+    div.content section{
+        width :95%;
+        align-content: center;
+        margin:1em auto;
+    }
+}
